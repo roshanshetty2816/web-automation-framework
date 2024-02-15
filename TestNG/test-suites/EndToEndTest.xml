@@ -1,0 +1,8 @@
+<suite name="ProductsPageTestSuite">
+	<parameter name="browserName" value="chrome" />
+	<test name="ProductsPageTest">
+		<classes>
+			<class name="testcases.ProductsPageTest" />
+		</classes>
+	</test>
+</suite>

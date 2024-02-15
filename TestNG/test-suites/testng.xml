@@ -1,0 +1,8 @@
+<suite name="LoginSuite">
+	<parameter name="browserName" value="chrome" />
+	<test name="loginTest">
+		<classes>
+			<class name="testcases.LoginTest" />
+		</classes>
+	</test>
+</suite>

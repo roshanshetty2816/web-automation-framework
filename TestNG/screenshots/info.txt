@@ -1,0 +1,5 @@
+Screenshots of screens will be stored here in case of any test failure.
+
+
+
+
