@@ -1,3 +1,4 @@
-/target/
-/.settings/
+TestNG/target/
 *.jpg
+TestNG/.settings
+TestNG/test-output

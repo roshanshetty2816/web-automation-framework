@@ -15,4 +15,8 @@ public class ListenerClass implements ITestListener {
 			}
 		}
 	}
+
+	public void onTestStart(ITestResult result) {
+		LogHandler.info("Execution of " + result.getMethod().getMethodName() + " started.");
+	}
 }
