@@ -2,3 +2,4 @@ TestNG/target/
 *.jpg
 TestNG/.settings
 TestNG/test-output
+*.log
