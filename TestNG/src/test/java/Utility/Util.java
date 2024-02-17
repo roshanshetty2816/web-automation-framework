@@ -17,10 +17,11 @@ import Base.BaseClass;
 
 public class Util extends BaseClass {
 
-	public static void captureScreenShot() throws IOException {
+	public static String captureScreenShot() throws IOException {
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		File dest = new File(".//screenshots//screenshot.jpg");
 		FileHandler.copy(src, dest);
+		return dest.getAbsolutePath();
 	}
 
 	public static JSONArray JSONArrayExtractor() throws IOException, ParseException {

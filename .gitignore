@@ -3,3 +3,4 @@ TestNG/target/
 TestNG/.settings
 TestNG/test-output
 *.log
+*.html
